@@ -326,6 +326,33 @@
   }
 
   /*=============== WHY US ===============*/
+  .why-us__container {
+    width: 980px;
+  }
+
+  .why-us__title {
+    font-size: 36px;
+  }
+
+  .why-us__card-row {
+    margin: 100px 0 100px 0;
+  }
+
+  .why-us__card {
+    max-width: 170px;
+  }
+
+  .why-us__card-text {
+    font-size: 14px;
+  }
+
+  .why-us__burger-bg {
+    margin-top: -50%;
+  }
+
+  .why-us__burger-bg img {
+    max-width: 645px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -352,5 +379,14 @@
   .main__hamburger-description {
     left: 860px;
     bottom: -294px;
+  }
+
+  /*=============== MAIN ===============*/
+  .why-us__container {
+    width: 1200px;
+  }
+
+  .why-us__burger-bg {
+    margin-top: -40%;
   }
 }
