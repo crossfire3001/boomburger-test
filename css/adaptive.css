@@ -1,6 +1,14 @@
 @media screen and (min-width: 320px) {
   /*=============== MAIN ===============*/
-  .row {
+  .container {
+    overflow: hidden;
+  }
+
+  .main {
+    padding: 40px 0 40px 0;
+  }
+
+  .main__row {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -76,7 +84,7 @@
 
   /*=============== ABOUT ===============*/
   .about {
-    padding-bottom: 100px;
+    padding: 40px 0 40px 0;
   }
 
   .about__container {
@@ -85,12 +93,29 @@
     padding-right: 15px;
   }
 
+  .about__row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about__title-block {
+    display: flex;
+    align-items: center;
+    font-family: FormularBold, sans-serif;
+    line-height: 32px;
+    margin-bottom: 25px;
+  }
+
   .about__text-block {
     display: flex;
     flex-direction: column;
     gap: 25px;
     font-family: TrebuchetMS, sans-serif;
     font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 47px;
   }
 
   .about__images {
@@ -102,14 +127,17 @@
 
   .burger-1 {
     margin-right: -10%;
+    max-width: 131px;
   }
 
   .burger-2 {
     z-index: 2;
+    max-width: 144px;
   }
 
   .burger-3 {
     margin-left: -10%;
+    max-width: 113px;
   }
 }
 @media screen and (min-width: 576px) {
@@ -119,16 +147,25 @@
     flex-direction: row;
     align-items: center;
   }
+
+  /*=============== ABOUT ===============*/
+  .about__container {
+    max-width: 576px;
+  }
+
+  .about__text-block {
+    max-width: 546px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   /*=============== MAIN ===============*/
-  .container {
+  .main__container {
     padding: 50px 0 50px 0;
     max-width: 740px;
   }
 
-  .row {
+  .main__row {
     align-items: flex-start;
   }
 
@@ -161,6 +198,31 @@
   .main__action {
     margin-bottom: 60px;
   }
+
+  /*=============== ABOUT ===============*/
+  .about__container {
+    width: 740px;
+  }
+
+  .about__title-block {
+    font-size: 24px;
+  }
+
+  .about__text-block {
+    font-size: 14px;
+  }
+
+  .burger-1 {
+    max-width: 230px;
+  }
+
+  .burger-2 {
+    max-width: 250px;
+  }
+
+  .burger-3 {
+    max-width: 200px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -181,6 +243,23 @@
   .main__hamburger-description {
     left: 710px;
     bottom: -255px;
+  }
+
+  /*=============== ABOUT ===============*/
+  .about__container {
+    width: 980px;
+  }
+
+  .burger-1 {
+    max-width: 327px;
+  }
+
+  .burger-2 {
+    max-width: 360px;
+  }
+
+  .burger-3 {
+    max-width: 282px;
   }
 }
 
