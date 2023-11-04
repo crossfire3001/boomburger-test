@@ -139,6 +139,34 @@
     margin-left: -10%;
     max-width: 113px;
   }
+
+  /*=============== WHY US ===============*/
+  .why-us {
+    padding: 60px 0 100px 0;
+  }
+
+  .why-us__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .why-us__card-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .why-us__card {
+    max-width: 126px;
+    text-align: center;
+  }
+
+  .why-us__card-text {
+    font-family: TrebuchetMS, sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+  }
 }
 @media screen and (min-width: 576px) {
   /*=============== MAIN ===============*/
@@ -248,6 +276,10 @@
   /*=============== ABOUT ===============*/
   .about__container {
     width: 980px;
+  }
+
+  .about__title-block img {
+    display: none;
   }
 
   .burger-1 {
