@@ -1,6 +1,6 @@
 @media screen and (min-width: 320px) {
   /*=============== MAIN ===============*/
-  .container {
+  .main__container {
     overflow: hidden;
   }
 
@@ -178,6 +178,11 @@
 
   .why-us__burger-bg img {
     max-width: 322px;
+  }
+
+  /*=============== ABOUT ===============*/
+  .menu {
+    padding: 100px 0 100px 0;
   }
 }
 @media screen and (min-width: 576px) {
