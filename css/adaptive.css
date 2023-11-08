@@ -205,6 +205,61 @@
     font-family: TrebuchetMS, sans-serif;
     line-height: 17px;
   }
+
+  /*=============== FEEDBACK ===============*/
+  .feedback {
+    padding: 100px 0 100px 0;
+  }
+
+  .feedback__container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .card__test {
+    color: white;
+    background-image: url(../img/feedback-img.png);
+    background-repeat: no-repeat;
+    width: 290px;
+    height: 320px;
+    object-fit: cover;
+  }
+
+  .card__test-title {
+    margin-bottom: 20px;
+  }
+
+  .card__test-content {
+    border-radius: 5px;
+    background-color: rgba(40, 29, 24, 0.9);
+    background-size: cover;
+    opacity: 0.902;
+    position: absolute;
+    width: 330px;
+    height: 320px;
+    padding: 29px 29px 48px 33px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 75px;
+    margin-bottom: 20px;
+  }
+
+  .socials__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-test__body {
+    font-size: 12px;
+  }
+
+  .card__burger-favorite__name {
+    margin-bottom: 32px;
+  }
+
 }
 @media screen and (min-width: 576px) {
   /*=============== MAIN ===============*/
@@ -307,6 +362,12 @@
     /* position: absolute; */
     text-align: center;
     margin-top: -35%;
+  }
+
+  /*=============== MENU ===============*/
+  .slick-slide .burger__card-img {
+    width: 196px;
+    height: 163px;
   }
 }
 
@@ -414,5 +475,21 @@
 
   .why-us__burger-bg {
     margin-top: -40%;
+  }
+
+  /*=============== MENU ===============*/
+  .menu__container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .slick-next {
+    left: 100%;
+    top: 50%;
+  }
+
+  .slick-prev {
+    left: 0;
+    top: 50%;
   }
 }
