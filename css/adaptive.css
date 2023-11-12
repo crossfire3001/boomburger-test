@@ -259,7 +259,6 @@
   .card__burger-favorite__name {
     margin-bottom: 32px;
   }
-
 }
 @media screen and (min-width: 576px) {
   /*=============== MAIN ===============*/
@@ -492,4 +491,104 @@
     left: 0;
     top: 50%;
   }
+
+
+
+
+
+
+  .reservation__container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 200px 0 200px 0;
+  }
+  
+  .reservation__title {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  .reservation__image {
+    position: relative;
+  }
+  
+  .reservation__image::before {
+    content: "";
+    position: absolute;
+    width: 550px;
+    height: 450px;
+    border-radius: 50%;
+    z-index: -1;
+    background: rgba(92, 17, 13, 0.62);
+    filter: blur(100px);
+  }
+  
+  .reservation__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .reservation__text {
+    color: white;
+  }
+  
+  .reservation__timer-countdown {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+  }
+  
+  .time-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c51000;
+    font-weight: bold;
+    gap: 5px;
+  }
+  
+  #minutes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .divider {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #c51000;
+    font-weight: bold;
+  }
+  
+  #seconds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
 }

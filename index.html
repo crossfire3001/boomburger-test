@@ -425,6 +425,72 @@
       </div>
     </section>
 
+    <div class="reservation">
+      <div class="container reservation__container">
+        <div class="reservation__title">Забронировать стол</div>
+        <div class="row reservation__row">
+          <div class="reservation__image">
+            <img
+              src="img/reservation__burger-bg.png"
+              alt=""
+              class="reservation__burger-img"
+            />
+          </div>
+          <div class="reservation__block">
+            <div class="reservation__text">
+              Ждем тебя в BoomBurger прямо сейчас. Оформи бронь в течение 30
+              минут и получи напиток в подарок!
+            </div>
+            <div class="reservation__timer">
+              <div class="reservation__timer-countdown" id="countdown">
+                <div class="time-block">
+                  <div class="time">
+                    <div id="minutes" data-minutes-tens></div>
+                    <div id="minutes" data-minutes-ones></div>
+                  </div>
+                  <div>минуты</div>
+                </div>
+                <div class="divider">:</div>
+                <div class="time-block">
+                  <div class="time">
+                    <div id="seconds" data-seconds-tens></div>
+                    <div id="seconds" data-seconds-ones></div>
+                  </div>
+                  <div>секунды</div>
+                </div>
+              </div>
+            </div>
+            <form action="">
+              <div class="reservation__form">
+                <input
+                  type="text"
+                  class="base-input order__base-input"
+                  placeholder="Ваше имя"
+                  id="name"
+                />
+                <div class="error-input">Необходимо ввести ваше имя</div>
+                <input
+                  type="text"
+                  class="base-input order__base-input"
+                  placeholder="+7(__)___-__-__"
+                  id="phone"
+                />
+                <div class="error-input">Необходимо ввести ваш телефон</div>
+                <button class="btn order__btn" id="submit">
+                  Забронировать стол
+                </button>
+                <div class="text__form">
+                  Нажимая на кнопку вы подтверждаете ваше согласие с
+                  <u>политикой конфиденциальности</u> и обработкой персональных
+                  данных
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/slick.js"></script>
