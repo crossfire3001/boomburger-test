@@ -259,6 +259,141 @@
   .card__burger-favorite__name {
     margin-bottom: 32px;
   }
+
+  /*=============== RESERVATION ===============*/
+  .reservation {
+    padding: 65px 0 50px 0;
+  }
+
+  .reservation__container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .reservation__title {
+    font-size: 25px;
+    font-family: FormularBold, sans-serif;
+    line-height: 33px;
+    max-width: 268px;
+    margin-bottom: 20px;
+  }
+
+  .reservation__row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .reservation__burger-img {
+    max-width: 273px;
+  }
+
+  .reservation__image {
+    position: relative;
+  }
+
+  .reservation__image::before {
+    content: "";
+    position: absolute;
+    width: 270px;
+    height: 220px;
+    border-radius: 50%;
+    z-index: -1;
+    background: rgba(92, 17, 13, 0.62);
+    filter: blur(100px);
+  }
+
+  .reservation__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reservation__text {
+    font-family: TrebuchetMS, sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    max-width: 223px;
+    margin-bottom: 30px;
+  }
+
+  .reservation__timer {
+    margin-bottom: 29px;
+  }
+
+  .reservation__timer-countdown {
+    display: flex;
+    gap: 5px;
+  }
+
+  .time-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c51000;
+    font-weight: bold;
+    gap: 5px;
+  }
+
+  #minutes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+
+  .divider {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #c51000;
+    font-weight: bold;
+  }
+
+  #seconds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+
+  .reservation__form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 253px;
+  }
+
+  .reservation__btn {
+    max-width: 253px;
+  }
+
+  .reservation__block {
+    margin-bottom: 56px;
+  }
+
 }
 @media screen and (min-width: 576px) {
   /*=============== MAIN ===============*/
@@ -492,11 +627,7 @@
     top: 50%;
   }
 
-
-
-
-
-
+  /*=============== RESERVATION ===============*/
   .reservation__container {
     width: 1200px;
     margin: 0 auto;
@@ -512,7 +643,7 @@
   .reservation__image {
     position: relative;
   }
-  
+
   .reservation__image::before {
     content: "";
     position: absolute;
@@ -527,68 +658,17 @@
   .reservation__row {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  .reservation__block {
+    max-width: 253px;
   }
   
   .reservation__text {
     color: white;
   }
   
-  .reservation__timer-countdown {
-    display: flex;
-    align-items: baseline;
-    gap: 5px;
-  }
-  
-  .time-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .time {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #c51000;
-    font-weight: bold;
-    gap: 5px;
-  }
-  
-  #minutes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    background-color: #fff;
-    border-radius: 5px;
-  }
-  
-  .divider {
-    width: 30px;
-    height: 30px;
-    background-color: #fff;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #c51000;
-    font-weight: bold;
-  }
-  
-  #seconds {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    background-color: #fff;
-    border-radius: 5px;
-  }
+
   
 }
