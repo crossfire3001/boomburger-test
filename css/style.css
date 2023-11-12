@@ -36,6 +36,8 @@ li {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .btn {
+  font-family: TrebuchetMS, sans-serif;
+  font-weight: bold;
   height: 60px;
   border-radius: 10px;
   background-image: -moz-linear-gradient(

@@ -344,6 +344,12 @@
     gap: 5px;
   }
 
+  .time__count {
+    font-family: TrebuchetMS, sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
   #minutes {
     display: flex;
     flex-direction: column;
@@ -382,12 +388,35 @@
   .reservation__form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 18px;
     max-width: 253px;
   }
 
+  .reservation__form-input {
+    border: 1px solid #fdb15b;
+    background-color: #060606;
+    border-radius: 5px;
+    padding: 20px;
+    outline: none;
+  }
+
+  .reservation__form-input::placeholder {
+    color: white;
+  }
+
   .reservation__btn {
+    font-size: 14px;
+    line-height: 21px;
     max-width: 253px;
+  }
+
+  .reservation__form-confirm {
+    font-family: TrebuchetMS, sans-serif;
+    font-size: 10px;
+    line-height: 15px;
+    max-width: 212px;
   }
 
   .reservation__block {

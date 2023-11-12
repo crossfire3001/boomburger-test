@@ -448,7 +448,7 @@
                     <div id="minutes" data-minutes-tens></div>
                     <div id="minutes" data-minutes-ones></div>
                   </div>
-                  <div>минуты</div>
+                  <div class="time__count">минуты</div>
                 </div>
                 <div class="divider">:</div>
                 <div class="time-block">
@@ -456,7 +456,7 @@
                     <div id="seconds" data-seconds-tens></div>
                     <div id="seconds" data-seconds-ones></div>
                   </div>
-                  <div>секунды</div>
+                  <div class="time__count">секунды</div>
                 </div>
               </div>
             </div>
@@ -464,14 +464,14 @@
               <div class="reservation__form">
                 <input
                   type="text"
-                  class="base-input order__base-input"
+                  class="base-input reservation__form-input"
                   placeholder="Ваше имя"
                   id="name"
                 />
                 <div class="error-input">Необходимо ввести ваше имя</div>
                 <input
                   type="text"
-                  class="base-input order__base-input"
+                  class="base-input reservation__form-input"
                   placeholder="+7(__)___-__-__"
                   id="phone"
                 />
@@ -479,7 +479,7 @@
                 <button class="btn reservation__btn" id="submit">
                   Забронировать стол
                 </button>
-                <div class="text__form">
+                <div class="reservation__form-confirm">
                   Нажимая на кнопку вы подтверждаете ваше согласие с
                   <u>политикой конфиденциальности</u> и обработкой персональных
                   данных
@@ -495,5 +495,6 @@
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/slick.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/timer.js"></script>
   </body>
 </html>
