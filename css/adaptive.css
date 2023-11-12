@@ -400,6 +400,7 @@
     border-radius: 5px;
     padding: 20px;
     outline: none;
+    color: white;
   }
 
   .reservation__form-input::placeholder {
@@ -421,6 +422,10 @@
 
   .reservation__block {
     margin-bottom: 56px;
+  }
+
+  .reservation__add-chili {
+    display: none;
   }
 
 }
@@ -532,6 +537,32 @@
     width: 196px;
     height: 163px;
   }
+
+  /*=============== RESERVATION ===============*/
+  .reservation__row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+  }
+
+  .reservation__burger-img {
+    max-width: 350px;
+  }
+
+  .reservation__block {
+    text-align: left;
+    align-items: start;
+  }
+
+  .reservation__text {
+    max-width: 253px;
+  }
+
+  .reservation__form {
+    align-items: normal;
+  }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -603,6 +634,8 @@
   .why-us__burger-bg img {
     max-width: 645px;
   }
+
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -667,6 +700,14 @@
     color: white;
     text-align: center;
     font-size: 36px;
+    line-height: 48px;
+    max-width: 386px;
+  }
+
+  .reservation__row {
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
   }
   
   .reservation__image {
@@ -683,21 +724,17 @@
     background: rgba(92, 17, 13, 0.62);
     filter: blur(100px);
   }
-  
-  .reservation__row {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+
+  .reservation__burger-img {
+    max-width: 546px;
   }
 
   .reservation__block {
-    max-width: 253px;
+    margin-bottom: 0;
   }
-  
-  .reservation__text {
-    color: white;
-  }
-  
 
-  
+  .reservation__add-chili {
+    display: block;
+  }
+
 }
