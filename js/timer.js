@@ -35,4 +35,4 @@ function startCountdown() {
 document.addEventListener("DOMContentLoaded", startCountdown);
 
 const test = new Date().setMinutes(new Date().getMinutes() + 30);
-console.log(test);
+// console.log(test);
