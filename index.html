@@ -10,6 +10,81 @@
     <link rel="stylesheet" href="css/adaptive.css" />
   </head>
   <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__burger" id="burger">
+          <svg
+            id="Layer_1"
+            enable-background="new 0 0 512 512"
+            height="512"
+            viewBox="0 0 512 512"
+            width="512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m464.883 64.267h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"
+            />
+            <path
+              d="m464.883 208.867h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"
+            />
+            <path
+              d="m464.883 353.467h-417.766c-25.98 0-47.117 21.137-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.012-21.137-47.149-47.117-47.149z"
+            />
+          </svg>
+        </div>
+        <div class="header__logo">
+          <img src="img/logo.png" alt="logo" class="logo__img" />
+        </div>
+        <nav class="header__menu" id="menu">
+          <div class="header__menu-close">
+            <svg
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 492 492"
+              style="enable-background: new 0 0 492 492"
+              xml:space="preserve"
+            >
+              <g>
+                <g>
+                  <path
+                    d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+			c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+			c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+			L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+			c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+			c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+			c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"
+                  />
+                </g>
+              </g>
+            </svg>
+          </div>
+          <ul class="menu__list">
+            <li class="menu-item"><a href="index.html#products">Меню</a></li>
+            <li class="menu-item"><a href="#">Наши преимущества</a></li>
+            <li class="menu-item">
+              <a href="index.html#order">O Boomburger</a>
+            </li>
+            <li class="menu-item"><a href="#">Отзывы</a></li>
+            <li class="menu-item"><a href="#">Акции</a></li>
+          </ul>
+        </nav>
+        <div class="header__geo">
+          <div class="geo-image">
+            <img src="img/geo.png" alt="geo" />
+          </div>
+          <div class="geo-address">
+            <span>г. Москва, м. Лубянка Никольская ул., 24</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
     <section class="main">
       <div class="container main__container">
         <div class="row main__row">
@@ -461,38 +536,53 @@
               </div>
             </div>
             <form action="">
-                <div class="reservation__form">
-                  <input
-                          type="text"
-                          class="base-input reservation__form-input"
-                          placeholder="Ваше имя"
-                          id="name"
-                  />
-                  <div class="error-input">Необходимо ввести ваше имя</div>
-                  <input
-                          type="text"
-                          class="base-input reservation__form-input"
-                          placeholder="+7(__)___-__-__"
-                          id="phone"
-                  />
-                  <div class="error-input">Необходимо ввести ваш телефон</div>
-                  <button class="btn reservation__btn" id="submit">
-                    Забронировать стол
-                  </button>
-                  <div class="reservation__form-confirm">
-                    Нажимая на кнопку вы подтверждаете ваше согласие с
-                    <u>политикой конфиденциальности</u> и обработкой персональных
-                    данных
-                  </div>
+              <div class="reservation__form">
+                <input
+                  type="text"
+                  class="base-input reservation__form-input"
+                  placeholder="Ваше имя"
+                  id="name"
+                />
+                <div class="error-input">Необходимо ввести ваше имя</div>
+                <input
+                  type="text"
+                  class="base-input reservation__form-input"
+                  placeholder="+7(__)___-__-__"
+                  id="phone"
+                />
+                <div class="error-input">Необходимо ввести ваш телефон</div>
+                <button class="btn reservation__btn" id="submit">
+                  Забронировать стол
+                </button>
+                <div class="reservation__form-confirm">
+                  Нажимая на кнопку вы подтверждаете ваше согласие с
+                  <u>политикой конфиденциальности</u> и обработкой персональных
+                  данных
                 </div>
-              </form>
+              </div>
+            </form>
           </div>
           <div class="reservation__add-chili">
-            <img src="img/reservation__chili-img.png" alt="">
+            <img src="img/reservation__chili-img.png" alt="" />
           </div>
         </div>
       </div>
     </section>
+
+    <!--=============== BURGER MENU JS ===============-->
+    <script>
+      // открытие меню при нажатии на бургер
+      document.getElementById("burger").onclick = function () {
+        document.getElementById("menu").classList.add("open");
+      };
+
+      // закрытие меню при клике на любой элемент в меню
+      document.querySelectorAll("#menu *").forEach((item) => {
+        item.onclick = () => {
+          document.getElementById("menu").classList.remove("open");
+        };
+      });
+    </script>
 
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>

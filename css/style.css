@@ -66,6 +66,44 @@ li {
   cursor: pointer;
 }
 
+/*=============== HEADER & NAV ===============*/
+.header {
+  background-color: #070707;
+  padding: 16px 0 7px 0;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.menu__list {
+  width: 630px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+a {
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.header__geo {
+  max-width: 197px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.geo-address span {
+  color: #fff;
+}
+
 /*=============== FORM ===============*/
 form .error-input {
   color: red;
@@ -77,4 +115,3 @@ form .error-input {
   border-radius: 5px;
   display: none;
 }
-
