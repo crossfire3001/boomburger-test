@@ -505,6 +505,12 @@
   .reservation__add-chili {
     display: none;
   }
+
+  /*=============== FOOTER ===============*/
+  .footer__socials-img:hover {
+    opacity: 0.90;
+    cursor: pointer;
+  }
 }
 @media screen and (min-width: 576px) {
   /*=============== MAIN ===============*/
