@@ -348,12 +348,35 @@
 
   /*=============== FEEDBACK ===============*/
   .feedback {
-    padding: 100px 0 100px 0;
+    padding: 60px 0 100px 0;
   }
 
   .feedback__container {
     max-width: 1200px;
     margin: 0 auto;
+  }
+
+  .feedback__row {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .feedback__title-block {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-bottom: 40px;
+  }
+
+  .feedback__chili-img {
+    display: none;
+  }
+
+  .feedback__title {
+    font-size: 25px;
+    font-family: FormularBold, sans-serif;
   }
 
   .card__test {
@@ -715,7 +738,7 @@
 
   /*=============== MENU ===============*/
   .menu {
-    padding-top: 55px;
+    padding: 55px 0 75px 0;
   }
 
   .menu__chili-img {
@@ -746,6 +769,33 @@
   .slick-slide .burger__card-img {
     width: 196px;
     height: 163px;
+  }
+
+  /*=============== FEEDBACK ===============*/
+  .feedback {
+    padding-top: 75px;
+  }
+
+  .feedback__chili-img {
+    display: flex;
+    position: relative;
+  }
+
+  .feedback__chili-img::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: -1;
+    background: #2e1310;
+    right: calc(50% - 50px);
+    top: calc(50% - 50px);
+    filter: blur(35px);
+  }
+
+  .feedback__title {
+    font-size: 36px;
   }
 
   /*=============== RESERVATION ===============*/
