@@ -220,7 +220,7 @@
 
   /*=============== WHY US ===============*/
   .why-us {
-    padding: 60px 0 100px 0;
+    padding: 60px 0 40px 0;
   }
 
   .why-us__container {
@@ -260,7 +260,7 @@
 
   /*=============== MENU ===============*/
   .menu {
-    padding: 100px 0 100px 0;
+    padding: 100px 0 40px 0;
   }
 
   .menu__container {
@@ -691,6 +691,10 @@
   }
 
   /*=============== WHY US ===============*/
+  .why-us {
+    padding-bottom: 55px;
+  }
+
   .why-us__container {
     width: 740px;
   }
@@ -710,6 +714,10 @@
   }
 
   /*=============== MENU ===============*/
+  .menu {
+    padding-top: 55px;
+  }
+
   .menu__chili-img {
     display: none;
   }
