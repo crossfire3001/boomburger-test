@@ -4,6 +4,7 @@ let orderTitle = $(".order__text-title");
 let orderMessage = $(".order__text-message");
 
 $("#submit").click(function (e) {
+    e.preventDefault();
     let name = $("#name");
     let phone = $("#phone");
     let hasError = false;
