@@ -240,11 +240,11 @@ form .error-input {
   }
 } */
 
-.testimonial.quote {
+/* .testimonial.quote {
   background-image: url("./images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
   background-position: top right 10%;
-}
+} /*
 
 /* .testimonial img {
   width: 1.75rem;
@@ -252,7 +252,7 @@ form .error-input {
   border-radius: 50%;
 } */
 
-.testimonial .name {
+/* .testimonial .name {
   font-size: var(--fs-400);
   font-weight: var(--fw-400);
   line-height: 1;
@@ -270,7 +270,7 @@ form .error-input {
 
 .testimonial > p:last-of-type {
   opacity: 0.7;
-}
+} */
 
 /* 1st card */
 .promo__grid-card__vegan {
