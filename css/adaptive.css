@@ -113,8 +113,44 @@
     align-items: center;
   }
 
+  .main__image-promo__date {
+    background-color: #ec1a0f;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-family: TrebuchetMS, sans-serif;
+    flex-direction: column;
+    z-index: 5;
+    right: 15%;
+  }
+
+  .main__image-promo__price {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: TrebuchetMS, sans-serif;
+    position: absolute;
+    z-index: 10;
+    width: 94px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 8px;
+    bottom: -5%;
+    right: 20%;
+  }
+
+  .main__image-promo__price span {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
   .main__image-img {
     max-width: 310px;
+    margin-bottom: 33px;
   }
 
   .main__hamburger-description {
@@ -631,6 +667,10 @@
 }
 @media screen and (min-width: 576px) {
   /*=============== MAIN ===============*/
+  .main__image-promo__date, .main__image-promo__price {
+    right: 30%;
+  }
+
   .main__teaser-description {
     max-width: 520px;
     flex-direction: row;
@@ -673,10 +713,13 @@
     top: -20%;
   }
 
+  .main__image-promo__price {
+    top: 20%;
+    right: 10%;
+  }
+
   .main__image-img {
-    /* position: absolute;
-    left: 400px;
-    top: -175px; */
+    margin-bottom: 0;
   }
 
   .main__hamburger-description {
@@ -962,11 +1005,18 @@
     max-width: 600px;
   }
 
+  .main__image-promo__date {
+    right: 25%;
+    top: 7%;
+  }
+
+  .main__image-promo__price {
+    top: 25%;
+  }
+
   .main__image-img {
     max-width: 621px;
     height: 436px;
-    left: 630px;
-    top: -228px;
   }
 
   /*=============== MAIN ===============*/
