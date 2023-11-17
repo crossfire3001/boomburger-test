@@ -78,9 +78,9 @@
   }
 
   /*=============== MAIN ===============*/
-  .container {
+  /* .container {
     overflow: hidden;
-  }
+  } */
 
   .main {
     padding: 40px 0 40px 0;
@@ -947,9 +947,13 @@
     max-width: 1200px;
   }
 
-  .main {
+  .main__container {
     padding: 120px 0 60px 0;
   }
+
+  /* .main {
+    padding: 120px 0 60px 0;
+  } */
 
   .main__info {
     max-width: 600px;
