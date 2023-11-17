@@ -1029,10 +1029,10 @@
   }
 
   /*=============== MENU ===============*/
-  .menu__container {
+  /* .menu__container {
     max-width: 1200px;
     margin: 0 auto;
-  }
+  } */
 
   .slick-next {
     left: 100%;

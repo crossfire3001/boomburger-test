@@ -30,7 +30,7 @@ li {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -116,6 +116,8 @@ form .error-input {
   display: none;
 }
 
+
+/*=============== PROMO ===============*/
 .promo__grid {
   display: grid;
   gap: 1.5rem;
