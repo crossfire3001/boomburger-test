@@ -1138,9 +1138,60 @@
   .rowSpan2 { grid-row: span 2; }
   .colSpan2 { grid-column: span 2; }
 
+  .first__grid-card {
+    background-color: #305a29;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+  }
 
+.first__grid-card-block {
+  position: absolute;
+  z-index: 1;
+  bottom: 5px;
+  left: 9px;
+}
 
+.first__grid-card-block::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 108px;
+  border-radius: 50%;
+  background: rgba(94, 159, 54, 0.62);
+  filter: blur(10px);
+  left: 0;
+  bottom: 5px;
+}
 
+.first__grid-card-img {
+  position: relative;
+  z-index: 2;
+  height: 110px;
+}
+
+.first__grid-card-text {
+  font-family: FormularBold, sans-serif;
+  font-size: 30px;
+  color: white;
+  position: relative;
+  z-index: 2;
+  max-width: 268px;
+  text-align: center;
+  margin: 18px 0 0 100px;
+}
+
+.first__grid-card-text span {
+  font-size: 36px;
+  line-height: 30px;
+}
+
+.first__grid-card__footer-block-img {
+  position: absolute;
+  right: 0;
+  bottom: -40%;
+}
 
   /*=============== RESERVATION ===============*/
   .reservation__container {
