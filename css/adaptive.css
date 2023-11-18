@@ -1034,13 +1034,20 @@
     margin: 0 auto;
   } */
 
+  .carousel {
+    max-width: 1030px;
+    margin: 0 auto;
+    position: relative;
+  }
+
   .slick-next {
-    left: 100%;
+    left: auto;
+    right: -80px;
     top: 50%;
   }
 
   .slick-prev {
-    left: 0;
+    left: -80px;
     top: 50%;
   }
 
