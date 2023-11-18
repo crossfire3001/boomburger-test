@@ -1095,6 +1095,22 @@
     position: relative;
   }
 
+  /*=============== LAYOUT ===============*/
+  .layout {
+    height: 315px;
+    display: grid;
+    grid-template-rows: repeat(auto-fill, 143px);
+    grid-template-columns: repeat(3, 371px);
+    gap: 30px;
+  }
+
+  .layout__card {
+    border: 1px solid white;
+  }
+
+  .rowSpan2 { grid-row: span 2; }
+  .colSpan2 { grid-column: span 2; }
+
   /*=============== RESERVATION ===============*/
   .reservation__container {
     width: 1200px;
