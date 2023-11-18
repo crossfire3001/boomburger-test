@@ -1051,6 +1051,13 @@
     top: 50%;
   }
 
+  /*=============== FEEDBACK ===============*/
+  .feedback__carousel {
+    max-width: 1050px;
+    margin: 0 auto;
+    position: relative;
+  }
+
   /*=============== RESERVATION ===============*/
   .reservation__container {
     width: 1200px;
