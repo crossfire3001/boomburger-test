@@ -474,12 +474,12 @@
 
   /*=============== LAYOUT ===============*/
   .promo {
-    height: 800px;
+    height: 500px;
 
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 20px;
   }
 
   .promo__card {
@@ -494,7 +494,6 @@
     overflow: hidden;
     display: flex;
     justify-content: space-around;
-    height: 143px;
   }
 
   .first__grid-card-block {
@@ -525,7 +524,7 @@
   .first__grid-card-text {
     font-family: FormularBold, sans-serif;
     font-size: 18px;
-    line-height: 33px;
+    line-height: 23px;
     color: white;
     position: relative;
     z-index: 2;
@@ -542,7 +541,44 @@
   .first__grid-card__footer-block-img {
     position: absolute;
     right: 0;
-    bottom: -40%;
+    bottom: -50%;
+  }
+
+  /* 2nd card */
+  .second__grid-card {
+    background-color: #350039;
+    overflow: hidden;
+  }
+
+  .second__grid-card__body {
+    display: flex;
+    height: 110px; /* 138px */
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    align-items: center;
+  }
+
+  .second__grid-card__body-text {
+    font-size: 18px;
+    line-height: 1; /* 30px */
+    color: white;
+    max-width: 166px;
+    margin-top: 12px;
+  }
+
+  .second__grid-card__body-text span {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .second_grid-card__body-images-block {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    position: absolute;
+    bottom: -10%;
+    right: calc(50% - 115px);
   }
 
 
@@ -948,7 +984,7 @@
     font-size: 36px;
   }
 
-  /*=============== LAYOUT ===============*/
+  /*=============== PROMO ===============*/
   .promo {
     height: 315px;
 
@@ -963,7 +999,16 @@
   }
 
   .first__grid-card-text {
+    line-height: 33px;
     margin: 18px 0 0 100px;
+  }
+
+  .second__grid-card__body {
+    height: 138px;
+  }
+
+  .second__grid-card__body-text {
+    line-height: 30px;
   }
 
   /*=============== RESERVATION ===============*/
@@ -1214,12 +1259,6 @@
   font-size: 30px;
   max-width: 268px;
 }
-
-  /* 2nd card */
-  .second__grid-card {
-    background-color: #350039;
-    overflow: hidden;
-  }
 
   /*=============== RESERVATION ===============*/
   .reservation__container {

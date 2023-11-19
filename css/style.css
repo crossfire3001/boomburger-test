@@ -172,21 +172,6 @@ li {
 }
 
 /* 2nd card */
-.promo__grid-card__sample {
-  background-color: #350039;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.promo__grid-card__body-sample {
-  display: flex;
-  height: 138px;
-  flex-direction: column;
-  position: relative;
-  text-align: center;
-  align-items: center;
-}
-
 .promo__grid-card__body-text__sample {
   font-size: 18px;
   line-height: 30px;
