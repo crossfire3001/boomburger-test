@@ -473,7 +473,7 @@
   }
 
   /*=============== LAYOUT ===============*/
-  .layout {
+  .promo {
     height: 800px;
 
     display: grid;
@@ -482,8 +482,67 @@
     gap: 30px;
   }
 
-  .layout__card {
+  .promo__card {
     border: 1px solid white;
+    border-radius: 10px;
+  }
+
+  /* 1st card */
+  .first__grid-card {
+    background-color: #305a29;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    height: 143px;
+  }
+
+  .first__grid-card-block {
+    position: absolute;
+    z-index: 1;
+    bottom: 5px;
+    left: 9px;
+  }
+
+  .first__grid-card-block::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    background: rgba(94, 159, 54, 0.62);
+    filter: blur(10px);
+    left: 0;
+    bottom: 5px;
+  }
+
+  .first__grid-card-img {
+    position: relative;
+    z-index: 2;
+    height: 80px;
+  }
+
+  .first__grid-card-text {
+    font-family: FormularBold, sans-serif;
+    font-size: 18px;
+    line-height: 33px;
+    color: white;
+    position: relative;
+    z-index: 2;
+    max-width: 182px;
+    text-align: center;
+    margin: 18px 0 0 37px;
+  }
+
+  .first__grid-card-text span {
+    font-size: 36px;
+    line-height: 30px;
+  }
+
+  .first__grid-card__footer-block-img {
+    position: absolute;
+    right: 0;
+    bottom: -40%;
   }
 
 
@@ -890,7 +949,7 @@
   }
 
   /*=============== LAYOUT ===============*/
-  .layout {
+  .promo {
     height: 315px;
 
     display: grid;
@@ -899,8 +958,12 @@
     gap: 30px;
   }
 
-  .layout__card {
+  .promo__card {
     border: 1px solid white;
+  }
+
+  .first__grid-card-text {
+    margin: 18px 0 0 100px;
   }
 
   /*=============== RESERVATION ===============*/
@@ -1122,8 +1185,8 @@
     position: relative;
   }
 
-  /*=============== LAYOUT ===============*/
-  .layout {
+  /*=============== PROMO ===============*/
+  .promo {
     height: 315px;
     display: grid;
     grid-template-rows: repeat(auto-fit, 143px);
@@ -1131,67 +1194,32 @@
     gap: 30px;
   }
 
-  .layout__card {
+  .promo__card {
     border: 1px solid white;
   }
 
   .rowSpan2 { grid-row: span 2; }
   .colSpan2 { grid-column: span 2; }
 
-  .first__grid-card {
-    background-color: #305a29;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-around;
-  }
-
-.first__grid-card-block {
-  position: absolute;
-  z-index: 1;
-  bottom: 5px;
-  left: 9px;
-}
-
 .first__grid-card-block::before {
-  content: "";
-  position: absolute;
   width: 120px;
   height: 108px;
-  border-radius: 50%;
-  background: rgba(94, 159, 54, 0.62);
-  filter: blur(10px);
-  left: 0;
-  bottom: 5px;
 }
 
 .first__grid-card-img {
-  position: relative;
-  z-index: 2;
   height: 110px;
 }
 
 .first__grid-card-text {
-  font-family: FormularBold, sans-serif;
   font-size: 30px;
-  color: white;
-  position: relative;
-  z-index: 2;
   max-width: 268px;
-  text-align: center;
-  margin: 18px 0 0 100px;
 }
 
-.first__grid-card-text span {
-  font-size: 36px;
-  line-height: 30px;
-}
-
-.first__grid-card__footer-block-img {
-  position: absolute;
-  right: 0;
-  bottom: -40%;
-}
+  /* 2nd card */
+  .second__grid-card {
+    background-color: #350039;
+    overflow: hidden;
+  }
 
   /*=============== RESERVATION ===============*/
   .reservation__container {
