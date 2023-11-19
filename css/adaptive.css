@@ -472,7 +472,7 @@
     margin-bottom: 32px;
   }
 
-  /*=============== LAYOUT ===============*/
+  /*=============== PROMO ===============*/
   .promo {
     height: 500px;
 
@@ -581,7 +581,35 @@
     right: calc(50% - 115px);
   }
 
+  /* 4th card */
+  .fourth__grid-card {
+    display: flex;
+    padding: 10px 23px 7px 10px;
+    align-items: center;
+    background-color: #01242c;
+    order: 3;
+  }
 
+  .fourth__grid-card__img-block {
+    order: 2;
+  }
+
+  .fourth__grid-card-img {
+    height: 73px;
+    width: 94px;
+  }
+
+  .fourth__grid-card__text {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0;
+    margin-left: 0;
+    line-height: 30px;
+  }
+
+  .fourth__grid-card__text p:first-child {
+    display: none;
+  }
 
   /*=============== RESERVATION ===============*/
   .reservation {
@@ -1003,12 +1031,18 @@
     margin: 18px 0 0 100px;
   }
 
+  /* 2nd card */
   .second__grid-card__body {
     height: 138px;
   }
 
   .second__grid-card__body-text {
     line-height: 30px;
+  }
+
+  /* 4th card */
+  .fourth__grid-card__text {
+    letter-spacing: 1px;
   }
 
   /*=============== RESERVATION ===============*/
@@ -1259,6 +1293,25 @@
   font-size: 30px;
   max-width: 268px;
 }
+
+  /* 4th card */
+  .fourth__grid-card__text {
+    order: 2;
+  }
+
+  .fourth__grid-card-img {
+    height: 120px;
+    width: 120px;
+  }
+
+  .fourth__grid-card__text {
+    letter-spacing: 5px;
+    margin-left: 70px;
+  }
+
+  .fourth__grid-card__text p:first-child {
+    display: block;
+  }
 
   /*=============== RESERVATION ===============*/
   .reservation__container {
