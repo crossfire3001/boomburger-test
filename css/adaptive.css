@@ -403,6 +403,8 @@
   .feedback__container {
     max-width: 1200px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .feedback__row {
@@ -449,7 +451,7 @@
     position: absolute;
     width: 330px;
     height: 320px;
-    padding: 29px 29px 48px 33px;
+    padding: 29px 10px 33px;
   }
 
   .social-icons {
@@ -1044,6 +1046,30 @@
 
   .feedback__title {
     font-size: 36px;
+  }
+
+  .card__test-title {
+    font-family: FormularBold, sans-serif;
+    font-size: 25px;
+    line-height: 48px;
+  }
+
+  .card__burger-favorite {
+    font-family: FormularBold, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .card__burger-favorite__name {
+    font-family: FormularBold, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .card-test__body {
+    font-family: TrebuchetMS, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
   }
 
   /*=============== PROMO ===============*/
