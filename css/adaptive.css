@@ -107,7 +107,6 @@
   .main__title {
     font-family: FormularBold, sans-serif;
     font-size: 25px;
-    font-weight: bold;
     line-height: 32px;
   }
 
@@ -180,7 +179,8 @@
   }
 
   .main__teaser-description {
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 17px;
     color: white;
     max-width: 225px;
     display: flex;
@@ -196,11 +196,22 @@
     text-align: start;
   }
 
+  .main__teaser-img-1 {
+    width: 38px;
+    height: 44px;
+  }
+
   .main__teaser-description__delivery {
     display: flex;
-    align-items: end;
+    align-items: center;
     gap: 18px;
     text-align: start;
+  }
+
+  .main__teaser-img-2 {
+    width: 48px;
+    height: 30px;
+    margin-left: -8px;
   }
 
   /*=============== ABOUT ===============*/
@@ -921,6 +932,23 @@
 
   .main__action {
     margin-bottom: 60px;
+  }
+
+  .main__teaser-description {
+    font-size: 14px;
+    line-height: 19px;
+    max-width: 590px;
+    gap: 64px;
+  }
+
+  .main__teaser-img-1 {
+    width: 55px;
+    height: 63px;
+  }
+
+  .main__teaser-img-2 {
+    width: 72px;
+    height: 46px;
   }
 
   /*=============== ABOUT ===============*/
