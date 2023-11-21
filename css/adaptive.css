@@ -787,6 +787,7 @@
     padding: 20px;
     outline: none;
     color: white;
+    width: 253px;
   }
 
   form .error-input {
@@ -807,7 +808,7 @@
   .reservation__btn {
     font-size: 14px;
     line-height: 21px;
-    max-width: 253px;
+    width: 100%;
   }
 
   .reservation__form-confirm {
@@ -1357,11 +1358,6 @@
   }
 
   /*=============== MENU ===============*/
-  /* .menu__container {
-    max-width: 1200px;
-    margin: 0 auto;
-  } */
-
   .carousel {
     max-width: 1030px;
     margin: 0 auto;
