@@ -1,4 +1,10 @@
 @media screen and (min-width: 320px) {
+  /*=============== BASE ===============*/
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   /*=============== HEADER & NAV ===============*/
   .header {
     background-color: #070707;
@@ -278,8 +284,6 @@
 
   .why-us__container {
     width: 320px;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 
   .why-us__block {
@@ -404,8 +408,6 @@
   .feedback__container {
     max-width: 1200px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 
   .feedback__row {
@@ -885,6 +887,12 @@
   }
 }
 @media screen and (min-width: 768px) {
+  /*=============== BASE ===============*/
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   /*=============== MAIN ===============*/
   .main__container {
     padding: 50px 0 50px 0;
@@ -1301,7 +1309,7 @@
 @media screen and (min-width: 1200px) {
   /*=============== MAIN ===============*/
   .container {
-    max-width: 1200px;
+    max-width: 1170px;
   }
 
   .main__container {
