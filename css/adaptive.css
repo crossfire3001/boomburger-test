@@ -579,6 +579,7 @@
   }
 
   .second__grid-card__body-text span {
+    font-family: TrebuchetMS, sans-serif;
     font-size: 14px;
     line-height: 24px;
   }
@@ -620,7 +621,7 @@
   /* 4th card */
   .fourth__grid-card {
     display: flex;
-    padding: 10px 23px 7px 10px;
+    padding-left: 10px;
     align-items: center;
     background-color: #01242c;
     order: 3;
@@ -1109,7 +1110,15 @@
   }
 
   .second__grid-card__body-text {
+    font-family: FormularBold, sans-serif;
+    font-size: 30px;
+    max-width: 282px;
     line-height: 30px;
+  }
+
+  .second__grid-card__body-text span {
+    font-size: 20px;
+    font-weight: 400;
   }
 
   /* 3rd card */
@@ -1415,8 +1424,9 @@
 
   .third__grid-card-img {
     position: absolute;
-    bottom: -15%;
-    right: calc(50% - 160px);
+    right: -70px;
+    bottom: -30%;
+    width: 500px;
   }
 
   .third__grid-card__text:first-child {
@@ -1430,16 +1440,24 @@
 
   .fourth__grid-card-img {
     height: 120px;
-    width: 120px;
+    width: 160px;
   }
 
   .fourth__grid-card__text {
-    letter-spacing: 5px;
-    margin-left: 70px;
+    line-height: 40px;
   }
 
   .fourth__grid-card__text p:first-child {
     display: block;
+    font-size: 22px;
+  }
+
+  .fourth__grid-card__text p:nth-child(2){
+    font-size: 30px;
+  }
+
+  .fourth__grid-card__text p:nth-child(3) {
+    font-size: 34px;
   }
 
   /*=============== RESERVATION ===============*/
