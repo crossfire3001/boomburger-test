@@ -885,7 +885,6 @@
     max-width: 546px;
   }
 }
-
 @media screen and (min-width: 768px) {
   /*=============== MAIN ===============*/
   .main__container {
@@ -1155,7 +1154,6 @@
     align-items: normal;
   }
 }
-
 @media screen and (min-width: 1024px) {
   .header__menu {
     display: flex;
@@ -1277,7 +1275,6 @@
     order: 2;
   }
 }
-
 @media screen and (min-width: 1200px) {
   /*=============== MAIN ===============*/
   .container {
@@ -1296,6 +1293,11 @@
     max-width: 600px;
   }
 
+  .main__image {
+    top: -100px;
+    right: -100px;
+  }
+
   .main__image-promo__date {
     right: 25%;
     top: 7%;
@@ -1307,7 +1309,6 @@
 
   .main__image-img {
     max-width: 621px;
-    height: 436px;
   }
 
   /*=============== MAIN ===============*/
