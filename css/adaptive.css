@@ -45,7 +45,6 @@
   }
 
   .menu__link {
-    font-family: TrebuchetMS, sans-serif;
     font-size: 16px;
     color: #fff;
     line-height: 1.2;
@@ -131,7 +130,6 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    font-family: TrebuchetMS, sans-serif;
     flex-direction: column;
     z-index: 5;
     right: 15%;
@@ -140,7 +138,6 @@
   .main__image-promo__price {
     font-size: 24px;
     font-weight: bold;
-    font-family: TrebuchetMS, sans-serif;
     position: absolute;
     z-index: 10;
     width: 94px;
@@ -174,7 +171,6 @@
   }
 
   .main__hamburger-description__text {
-    font-family: TrebuchetMS, sans-serif;
     font-weight: 400;
     font-size: 12px;
   }
@@ -237,7 +233,6 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-    font-family: TrebuchetMS, sans-serif;
     font-size: 12px;
     line-height: 17px;
     margin-bottom: 47px;
@@ -296,7 +291,6 @@
   }
 
   .why-us__card-text {
-    font-family: TrebuchetMS, sans-serif;
     font-size: 12px;
     line-height: 17px;
   }
@@ -358,7 +352,6 @@
 
   .menu__select-card {
     font-size: 11px;
-    font-family: TrebuchetMS, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -389,7 +382,6 @@
 
   .burger__card-text {
     font-size: 12px;
-    font-family: TrebuchetMS, sans-serif;
     line-height: 17px;
   }
 
@@ -696,7 +688,6 @@
   }
 
   .reservation__text {
-    font-family: TrebuchetMS, sans-serif;
     font-size: 12px;
     line-height: 17px;
     max-width: 223px;
@@ -729,7 +720,6 @@
   }
 
   .time__count {
-    font-family: TrebuchetMS, sans-serif;
     font-size: 12px;
     line-height: 17px;
   }
@@ -809,7 +799,6 @@
   }
 
   .reservation__form-confirm {
-    font-family: TrebuchetMS, sans-serif;
     font-size: 10px;
     line-height: 15px;
     max-width: 212px;
@@ -853,7 +842,6 @@
     color: #b28f66;
     font-size: 12px;
     line-height: 24px;
-    font-family: TrebuchetMS, sans-serif;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -1064,7 +1052,6 @@
   }
 
   .card-test__body {
-    font-family: TrebuchetMS, sans-serif;
     font-size: 14px;
     font-weight: 400;
   }
