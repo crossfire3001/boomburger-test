@@ -90,10 +90,6 @@
   }
 
   /*=============== MAIN ===============*/
-  /* .container {
-    overflow: hidden;
-  } */
-
   .main {
     padding: 40px 0 40px 0;
   }
@@ -172,11 +168,14 @@
   }
 
   .main__hamburger-description__title {
+    font-family: FormularBold, sans-serif;
     font-size: 18px;
-    font-weight: bold;
+    line-height: 40px;
   }
 
   .main__hamburger-description__text {
+    font-family: TrebuchetMS, sans-serif;
+    font-weight: 400;
     font-size: 12px;
   }
 
@@ -185,7 +184,6 @@
   }
 
   .main__teaser-description {
-    font-family: TrebuchetMS, sans-serif;
     font-size: 14px;
     color: white;
     max-width: 225px;
@@ -928,7 +926,7 @@
 
   .main__hamburger-description {
     position: absolute;
-    width: 150px;
+    max-width: 156px;
     text-align: start;
     bottom: -30%;
   }
@@ -1206,9 +1204,9 @@
   }
 
   .main__hamburger-description {
-    width: 210px;
-    left: 50%;
-    bottom: -15%;
+    max-width: 210px;
+    left: 30%;
+    bottom: -19%;
   }
 
   /*=============== ABOUT ===============*/
@@ -1309,6 +1307,20 @@
 
   .main__image-img {
     max-width: 621px;
+  }
+
+  .main__hamburger-description {
+    max-width: 239px;
+    left: 40%;
+    bottom: -12%;
+  }
+
+  .main__hamburger-description__title {
+    font-size: 25px;
+  }
+
+  .main__hamburger-description__text {
+    font-size: 14px;
   }
 
   /*=============== MAIN ===============*/
