@@ -589,6 +589,21 @@
     right: calc(50% - 115px);
   }
 
+  .second__grid-card__body-img {
+    position: relative;
+  }
+
+  .second__grid-card__body-img::before {
+    content: "";
+    position: absolute;
+    width: 550px;
+    height: 450px;
+    border-radius: 50%;
+    z-index: 111;
+    background: rgba(92, 17, 13, 0.62);
+    filter: blur(100px);
+  }
+
   /* 3rd card */
   .third__grid-card {
     background-color: #b44b00;
