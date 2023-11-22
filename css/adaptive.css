@@ -405,11 +405,6 @@
     padding: 60px 0 100px 0;
   }
 
-  .feedback__container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
   .feedback__row {
     text-align: center;
     display: flex;
@@ -451,7 +446,6 @@
     background-color: rgba(40, 29, 24, 0.9);
     background-size: cover;
     opacity: 0.902;
-    position: absolute;
     width: 330px;
     height: 320px;
     padding: 29px 10px 33px;
@@ -1295,7 +1289,7 @@
   /*=============== FOOTER ===============*/
   .footer__row {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .footer__socials {
@@ -1308,6 +1302,19 @@
 }
 @media screen and (min-width: 1200px) {
   /*=============== MAIN ===============*/
+  .main {
+    background-image: url("../img/main-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+  }
+
+  .main__filter {
+    backdrop-filter: blur(15px);
+    background-color: rgba(40, 29, 24, 0.6);
+  }
+
   .container {
     max-width: 1170px;
   }
