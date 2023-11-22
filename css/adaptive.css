@@ -732,7 +732,7 @@
     line-height: 17px;
   }
 
-  #minutes {
+  .minutes {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -756,7 +756,7 @@
     font-weight: bold;
   }
 
-  #seconds {
+  .seconds {
     display: flex;
     flex-direction: column;
     align-items: center;
