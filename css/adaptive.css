@@ -1303,7 +1303,7 @@
 @media screen and (min-width: 1200px) {
   /*=============== MAIN ===============*/
   .main {
-    background-image: url("../img/main-bg.png");
+    background-image: url("../img/main-bg.png"), linear-gradient(to bottom right, black 70%, red);;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1312,7 +1312,6 @@
 
   .main__filter {
     backdrop-filter: blur(15px);
-    background-color: rgba(40, 29, 24, 0.6);
   }
 
   .container {
