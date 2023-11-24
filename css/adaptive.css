@@ -341,8 +341,23 @@
     line-height: 17px;
   }
 
+  .why-us__burger-bg {
+    position: relative;
+  }
+
   .why-us__burger-bg img {
     max-width: 322px;
+  }
+
+  .why-us__burger-bg::before {
+    content: "";
+    position: absolute;
+    width: 270px;
+    height: 220px;
+    border-radius: 50%;
+    z-index: -1;
+    background: rgba(92, 17, 13, 0.62);
+    filter: blur(100px);
   }
 
   /*=============== MENU ===============*/
