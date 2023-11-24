@@ -428,6 +428,29 @@
 
   .burger__card {
     margin: 17px 0 17px 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .burger__card::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 99px;
+    border-radius: 50%;
+    z-index: -1;
+    background: rgba(92, 17, 13, 0.62);
+    filter: blur(20px);
+    right: 10%;
+
+    content: "";
+    position: absolute;
+
+    border-radius: 50%;
+    z-index: -1;
+    background: rgba(92, 17, 13, 0.62);
+    filter: blur(20px);
+    right: 10%;
   }
 
   .burger__card-img {
@@ -685,12 +708,26 @@
   }
 
   .fourth__grid-card__img-block {
+    position: relative;
     order: 2;
+  }
+
+  .fourth__grid-card__img-block::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    background: rgba(1, 63, 77, 0.62);
+    filter: blur(10px);
+    left: 0;
+    bottom: 5px;
   }
 
   .fourth__grid-card-img {
     height: 73px;
     width: 94px;
+    position: relative;
   }
 
   .fourth__grid-card__text {
@@ -939,6 +976,11 @@
 
   .about__text-block {
     max-width: 546px;
+  }
+
+  /*=============== ABOUT ===============*/
+  .burger__card::before {
+    right: 30%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1439,6 +1481,12 @@
     top: 50%;
   }
 
+  .burger__card::before {
+    width: 200px;
+    height: 190px;
+    right: 10%;
+  }
+
   /*=============== FEEDBACK ===============*/
   .feedback__carousel {
     max-width: 1050px;
@@ -1501,6 +1549,11 @@
   .fourth__grid-card-img {
     height: 120px;
     width: 160px;
+  }
+
+  .fourth__grid-card__img-block::before {
+    width: 160px;
+    height: 120px;
   }
 
   .fourth__grid-card__text {
