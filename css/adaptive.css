@@ -279,6 +279,18 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: relative;
+  }
+
+  .about__images::before {
+    content: "";
+    position: absolute;
+    width: 270px;
+    height: 220px;
+    border-radius: 50%;
+    z-index: -1;
+    background: rgba(92, 17, 13, 0.62);
+    filter: blur(100px);
   }
 
   .burger-1 {
@@ -1341,25 +1353,6 @@
 }
 @media screen and (min-width: 1200px) {
   /*=============== MAIN ===============*/
-  /* .filter {
-    background-image: linear-gradient(
-        to right,
-        rgba(7, 4, 4, 0.5) 5%,
-        transparent 5%,
-        transparent
-      ),
-      linear-gradient(to top, #070404 5%, transparent),
-      linear-gradient(180deg, #070404 0%, transparent),
-      url("../img/main-bg.png");
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-
-  .main__filter {
-    backdrop-filter: blur(1px);
-  } */
-
   .container {
     max-width: 1170px;
   }
