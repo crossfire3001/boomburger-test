@@ -1195,10 +1195,15 @@
   }
 }
 @media screen and (min-width: 1024px) {
+  .header {
+    background-color: transparent;
+  }
+
   .header__menu {
     display: flex;
     position: static;
     order: 2;
+    background: transparent;
   }
 
   .menu__list {
@@ -1318,8 +1323,14 @@
 @media screen and (min-width: 1200px) {
   /*=============== MAIN ===============*/
   .filter {
-    background-image: linear-gradient(to right, #070404 5%, transparent),
+    background-image: linear-gradient(
+        to right,
+        rgba(7, 4, 4, 0.5) 5%,
+        transparent 5%,
+        transparent
+      ),
       linear-gradient(to top, #070404 5%, transparent),
+      linear-gradient(180deg, #070404 0%, transparent),
       url("../img/main-bg.png");
     background-position: top right;
     background-repeat: no-repeat;
@@ -1327,11 +1338,7 @@
   }
 
   .main__filter {
-    backdrop-filter: blur(15px);
-  }
-
-  .main {
-    /* margin: 132px 0 81px 0; */
+    backdrop-filter: blur(1px);
   }
 
   .container {
