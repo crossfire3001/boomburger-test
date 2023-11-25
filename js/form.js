@@ -2,6 +2,7 @@ let loader = $(".loader");
 let reservationForm = $(".reservation__form");
 let orderMessage = $(".order__text-message");
 let modal = $(".modal__bg");
+let modalClose = $(".modal__close");
 
 $("#submit").click(function (e) {
   e.preventDefault();
@@ -29,8 +30,8 @@ $("#submit").click(function (e) {
       loader.hide();
       if (!msg.success) {
         loader.css("display", "flex");
+        modal.css("display", "none");
         setTimeout(function () {
-          loader.hide();
           alert(
             "Возникла ошибка при оформлении заказа, позвоните нам и сделайте заказ"
           );
@@ -38,6 +39,10 @@ $("#submit").click(function (e) {
       }
       reservationForm.hide();
       modal.css("display", "flex");
+      modalClose.click(function (e) {
+        e.preventDefault();
+        modal.css("display", "none");
+      });
       orderMessage.hide();
     });
   }
