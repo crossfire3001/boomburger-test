@@ -442,15 +442,6 @@
     background: rgba(92, 17, 13, 0.62);
     filter: blur(20px);
     right: 10%;
-
-    content: "";
-    position: absolute;
-
-    border-radius: 50%;
-    z-index: -1;
-    background: rgba(92, 17, 13, 0.62);
-    filter: blur(20px);
-    right: 10%;
   }
 
   .burger__card-img {
@@ -501,9 +492,12 @@
     color: white;
     background-image: url(../img/feedback-img.png);
     background-repeat: no-repeat;
-    width: 290px;
+    background-position: center;
     height: 320px;
     object-fit: cover;
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 20px;
   }
 
   .card__test-title {
@@ -516,8 +510,10 @@
     background-size: cover;
     opacity: 0.902;
     width: 330px;
-    height: 320px;
+    height: 100%;
     padding: 29px 10px 33px;
+    display: inline-block;
+    text-align: left;
   }
 
   .social-icons {
@@ -541,9 +537,8 @@
   }
 
   /*=============== PROMO ===============*/
-  .promo {
+  .promo__content {
     height: 500px;
-
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: 1fr;
@@ -984,12 +979,6 @@
   }
 }
 @media screen and (min-width: 768px) {
-  /*=============== BASE ===============*/
-  .container {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
   /*=============== MAIN ===============*/
   .main__container {
     padding: 50px 0 50px 0;
@@ -1192,7 +1181,7 @@
   }
 
   /*=============== PROMO ===============*/
-  .promo {
+  .promo__content {
     height: 315px;
 
     display: grid;
@@ -1283,6 +1272,12 @@
   }
 }
 @media screen and (min-width: 1024px) {
+  /*=============== BASE ===============*/
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .header {
     background-color: transparent;
   }
@@ -1495,7 +1490,7 @@
   }
 
   /*=============== PROMO ===============*/
-  .promo {
+  .promo__content {
     height: 315px;
     display: grid;
     grid-template-rows: repeat(auto-fit, 143px);
