@@ -38,6 +38,16 @@
     background: rgba(0, 0, 0, 0.8);
   }
 
+  .menu__close {
+    display: flex;
+    width: 36px;
+    height: 36px;
+    fill: #f9d7a8;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
   .menu__list {
     display: flex;
     flex-direction: column;
@@ -112,10 +122,6 @@
 
   .main__filter {
     backdrop-filter: blur(1px);
-  }
-
-  .main {
-    /* padding: 40px 0 40px 0; */
   }
 
   .main__row {
@@ -1081,10 +1087,6 @@
     width: 740px;
   }
 
-  .why-us__card-container {
-    /* position: relative; */
-  }
-
   .why-us__card-row {
     justify-content: space-between;
   }
@@ -1287,6 +1289,16 @@
     position: static;
     order: 2;
     background: transparent;
+  }
+
+  .menu__close {
+    display: none;
+    width: 36px;
+    height: 36px;
+    fill: #f9d7a8;
+    position: absolute;
+    top: 20px;
+    left: 20px;
   }
 
   .menu__list {
