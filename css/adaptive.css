@@ -956,6 +956,65 @@
     justify-content: center;
     max-width: 234px;
   }
+
+  /*=============== MODAL ===============*/
+  .modal {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(35, 30, 28, 0.52);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 10;
+  }
+
+  .modal .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal__body {
+    background-color: black;
+    position: relative;
+    padding: 30px 80px 82px;
+    border-radius: 10px;
+  }
+
+  .modal__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .modal__content {
+    display: grid;
+    text-align: center;
+  }
+
+  .modal__header {
+    font-size: 25px;
+    max-width: 186px;
+    margin: 0 auto;
+  }
+
+  .modal__text {
+    max-width: 184px;
+    font-size: 12px;
+    order: 3;
+    margin: 0 auto;
+  }
+
+  .modal__bg-img {
+    max-width: 317px;
+    margin-bottom: 36px;
+  }
 }
 @media screen and (min-width: 576px) {
   /*=============== MAIN ===============*/
@@ -1271,6 +1330,30 @@
 
   .reservation__form {
     align-items: normal;
+  }
+
+  /*=============== MODAL ===============*/
+  .modal__body {
+    padding: 70px 80px 82px;
+  }
+
+  .modal__header {
+    max-width: 700px;
+    font-family: FormularBold, sans-serif;
+    font-size: 36px;
+    margin-bottom: 19px;
+  }
+
+  .modal__text {
+    font-family: TrebuchetMS, sans-serif;
+    font-size: 14px;
+    order: 0;
+    max-width: 533px;
+    margin-bottom: 33px;
+  }
+
+  .modal__bg-img {
+    max-width: 503px;
   }
 }
 @media screen and (min-width: 1024px) {
