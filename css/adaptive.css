@@ -492,7 +492,7 @@
 
   /*=============== FEEDBACK ===============*/
   .feedback {
-    padding: 60px 0 100px 0;
+    padding: 160px 0 100px 0;
   }
 
   .feedback__row {
@@ -544,6 +544,10 @@
     padding: 29px 10px 33px;
     display: inline-block;
     text-align: left;
+  }
+
+  .feedback__carousel .slick-prev, .feedback__carousel .slick-next {
+    bottom: -10%;
   }
 
   .social-icons {
@@ -599,7 +603,7 @@
     font-size: 25px;
     line-height: 48px;
     text-align: center;
-    margin: 140px auto 40px auto;
+    margin: 120px auto 40px auto;
     max-width: 704px;
   }
 
@@ -788,7 +792,7 @@
 
   /*=============== RESERVATION ===============*/
   .reservation {
-    padding: 65px 0 50px 0;
+    padding: 135px 0 50px 0;
   }
 
   .reservation__container {
