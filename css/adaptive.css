@@ -324,13 +324,14 @@
   }
 
   .burger-1 {
-    margin-right: -16%;
+    margin-right: 20%;
     max-width: 131px;
   }
 
   .burger-2 {
     z-index: 2;
     max-width: 144px;
+    position: absolute;
   }
 
   .burger-3 {
