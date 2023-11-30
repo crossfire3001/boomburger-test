@@ -67,3 +67,14 @@ li {
   cursor: pointer;
 }
 
+/*=============== SLIDER MENU ===============*/
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+
+

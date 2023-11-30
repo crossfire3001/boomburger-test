@@ -61,3 +61,26 @@ $(".feedback__carousel").slick({
     },
   ],
 });
+
+$(document).ready(function () {
+  $('.slider__menu').slick({
+    slidesToShow: 3, // сколько показывать слайдов
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          rows: 1,
+          appendArrows: $('.arrows'),
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          rows: 2,
+        },
+      },
+    ],
+  })
+})
