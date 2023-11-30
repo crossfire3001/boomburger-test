@@ -596,6 +596,11 @@
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: 1fr;
     gap: 20px;
+    grid-template-areas:
+            "veganburger"
+            "sampleburger"
+            "fishburger"
+            "bigburger";
   }
 
   .promo__title {
@@ -618,6 +623,7 @@
     overflow: hidden;
     display: flex;
     justify-content: space-around;
+    grid-area: veganburger;
   }
 
   .first__grid-card-block {
@@ -672,6 +678,7 @@
   .second__grid-card {
     background-color: #350039;
     overflow: hidden;
+    grid-area: sampleburger;
   }
 
   .second__grid-card__body {
@@ -728,12 +735,22 @@
     position: relative;
     overflow: hidden;
     padding: 5px;
+    grid-area: bigburger;
   }
 
   .third__grid-card__text {
     color: white;
     font-size: 18px;
     line-height: 30px;
+  }
+
+  .third__grid-card__text span:nth-child(2) {
+    display: none;
+  }
+
+  .third__grid-card__text:last-of-type {
+    display: flex;
+    justify-content: space-between;
   }
 
   .third__grid-card__text:first-child {
@@ -752,7 +769,7 @@
     padding-left: 10px;
     align-items: center;
     background-color: #01242c;
-    order: 3;
+    grid-area: fishburger;
   }
 
   .fourth__grid-card__img-block {
@@ -1312,6 +1329,9 @@
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+    grid-template-areas:
+        "veganburger sampleburger"
+        "fishburger bigburger";
   }
 
   .promo__title {
@@ -1654,6 +1674,9 @@
     grid-template-rows: repeat(auto-fit, 143px);
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    grid-template-areas:
+        "veganburger sampleburger bigburger"
+        "fishburger fishburger bigburger";
   }
 
   .rowSpan2 {
