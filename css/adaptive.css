@@ -540,7 +540,7 @@
     background-color: rgba(40, 29, 24, 0.9);
     background-size: cover;
     opacity: 0.902;
-    width: 330px;
+    max-width: 330px;
     height: 100%;
     padding: 29px 10px 33px;
     display: inline-block;
