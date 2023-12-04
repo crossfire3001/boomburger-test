@@ -143,10 +143,6 @@
     backdrop-filter: blur(1px);
   }
 
-  .main {
-    overflow: hidden;
-  }
-
   .main__row {
     display: flex;
     flex-direction: column;
@@ -523,6 +519,10 @@
     font-family: FormularBold, sans-serif;
   }
 
+  .card {
+    text-align: center;
+  }
+
   .card__test {
     color: white;
     background-image: url(../img/feedback-img.png);
@@ -532,6 +532,7 @@
     object-fit: cover;
     text-align: center;
     vertical-align: top;
+    display: inline-block;
     margin-bottom: 20px;
   }
 
@@ -1101,6 +1102,11 @@
   .burger__card::before {
     right: 30%;
   }
+
+  /*=============== FEEDBACK ===============*/
+  .card__test {
+    max-width: 260px;
+  }
 }
 @media screen and (min-width: 768px) {
   /*=============== MAIN ===============*/
@@ -1275,6 +1281,10 @@
 
   .feedback__title {
     font-size: 36px;
+  }
+
+  .card__test {
+    max-width: 310px;
   }
 
   .card__test-title {
@@ -1580,7 +1590,7 @@
 
   .main__image {
     top: -100px;
-    right: -100px;
+    right: 0;
   }
 
   .main__image-promo__date {
@@ -1799,4 +1809,10 @@
   /*=============== MODAL - END ===============*/
 
   /*- - - - - || - - - - -*/
+}
+
+@media screen and (min-width: 1370px) {
+  .main__image {
+    right: -100px;
+  }
 }
