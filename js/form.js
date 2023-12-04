@@ -1,5 +1,4 @@
 let loader = $(".loader");
-let reservationForm = $(".reservation__form");
 let orderMessage = $(".order__text-message");
 let modal = $(".modal");
 let modalClose = $(".modal__close");
@@ -37,7 +36,6 @@ $("#submit").click(function (e) {
           );
         }, 3000);
       }
-      reservationForm.hide();
       modal.css("display", "flex");
       modalClose.click(function (e) {
         e.preventDefault();
