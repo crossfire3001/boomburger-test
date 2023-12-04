@@ -7,7 +7,6 @@
 
   /*=============== HEADER & NAV ===============*/
   .header {
-    background-color: #070707;
     padding: 16px 0 7px 0;
   }
 
@@ -125,18 +124,12 @@
 
   /*=============== MAIN ===============*/
   .filter {
-    background-image: linear-gradient(
-        to right,
-        rgba(7, 4, 4, 0.5) 5%,
-        transparent 5%,
-        transparent
-      ),
-      linear-gradient(to top, #070404 5%, transparent),
-      linear-gradient(180deg, #070404 0%, transparent),
-      url("../img/main-bg.png");
+    background-image: linear-gradient(441deg, #070404 0%, transparent),
+      url("../img/main-bg-mobile.png");
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 40px;
   }
 
   .main__filter {
@@ -1122,6 +1115,21 @@
 }
 @media screen and (min-width: 768px) {
   /*=============== MAIN ===============*/
+  .filter {
+    background-image: linear-gradient(
+        to right,
+        rgba(7, 4, 4, 0.5) 5%,
+        transparent 5%,
+        transparent
+      ),
+      linear-gradient(to top, #070404 5%, transparent),
+      linear-gradient(180deg, #070404 0%, transparent),
+      url("../img/main-bg.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .main__container {
     padding: 50px 0 50px 0;
     max-width: 740px;
