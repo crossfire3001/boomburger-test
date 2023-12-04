@@ -143,6 +143,10 @@
     backdrop-filter: blur(1px);
   }
 
+  .main {
+    overflow: hidden;
+  }
+
   .main__row {
     display: flex;
     flex-direction: column;
@@ -547,7 +551,8 @@
     text-align: left;
   }
 
-  .feedback__carousel .slick-prev, .feedback__carousel .slick-next {
+  .feedback__carousel .slick-prev,
+  .feedback__carousel .slick-next {
     bottom: -10%;
   }
 
@@ -571,12 +576,6 @@
     margin-bottom: 32px;
   }
 
-
-
-
-
-
-
   /*- - - - - || - - - - -*/
 
   /*=============== FEEDBACK ===============*/
@@ -584,11 +583,6 @@
   /*=============== FEEDBACK END ===============*/
 
   /*- - - - - || - - - - -*/
-
-
-
-
-
 
   /*=============== PROMO ===============*/
   .promo__content {
@@ -598,10 +592,10 @@
     grid-template-columns: 1fr;
     gap: 20px;
     grid-template-areas:
-            "veganburger"
-            "sampleburger"
-            "fishburger"
-            "bigburger";
+      "veganburger"
+      "sampleburger"
+      "fishburger"
+      "bigburger";
   }
 
   .promo__title {
@@ -1306,9 +1300,6 @@
     font-weight: 400;
   }
 
-
-
-
   /*- - - - - || - - - - -*/
 
   /*=============== FEEDBACK ===============*/
@@ -1316,11 +1307,6 @@
   /*=============== FEEDBACK END ===============*/
 
   /*- - - - - || - - - - -*/
-
-
-
-
-
 
   /*=============== PROMO ===============*/
   .promo__content {
@@ -1331,8 +1317,8 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     grid-template-areas:
-        "veganburger sampleburger"
-        "fishburger bigburger";
+      "veganburger sampleburger"
+      "fishburger bigburger";
   }
 
   .promo__title {
@@ -1672,8 +1658,8 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     grid-template-areas:
-        "veganburger sampleburger bigburger"
-        "fishburger fishburger bigburger";
+      "veganburger sampleburger bigburger"
+      "fishburger fishburger bigburger";
   }
 
   .rowSpan2 {
