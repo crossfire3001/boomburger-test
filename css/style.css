@@ -22,6 +22,10 @@ body {
   color: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
 }
@@ -77,5 +81,34 @@ li {
   align-items: center;
 }
 
+/*=============== ScrollToTop ===============*/
+.scroll-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+  background-image: -webkit-linear-gradient(
+    17deg,
+    rgb(196, 9, 0) 0%,
+    rgb(207, 69, 0) 75%,
+    rgb(218, 128, 0) 100%
+  );
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
 
-
+.scroll-up.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+  transform: translateY(-55px);
+}
