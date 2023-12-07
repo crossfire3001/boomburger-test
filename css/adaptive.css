@@ -1546,6 +1546,12 @@
     display: none;
   }
 
+  .about__images::before {
+    width: 700px;
+    height: 300px;
+    filter: blur(50px);
+  }
+
   .burger-1 {
     max-width: 327px;
   }
@@ -1581,6 +1587,11 @@
 
   .why-us__burger-bg {
     margin-top: -50%;
+  }
+
+  .why-us__burger-bg::before {
+    width: 600px;
+    height: 450px;
   }
 
   .why-us__burger-bg img {
